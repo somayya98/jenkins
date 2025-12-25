@@ -13,7 +13,8 @@ pipeline {
                 script{
                     sh """
                         echo "Building" 
-                         echo $COURSE
+                        echo $COURSE
+                        env
                     """  
                 } 
             }
